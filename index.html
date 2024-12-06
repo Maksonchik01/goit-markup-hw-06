@@ -212,7 +212,7 @@
             <li class="co-workers">
               <img
                 srcset="
-                  ./images/team-img/img-mark.jpg 1x,
+                  ./images/team-img/img-mark.jpg    1x,
                   ./images/team-img/img-mark@2x.jpg 2x
                 "
                 src="./images/team-img/img-mark.jpg"
@@ -278,10 +278,10 @@
 
             <li class="co-workers">
               <img
-              srcset="
-              ./images/team-img/img-tom.jpg 1x,
-              ./images/team-img/img-tom@2x.jpg 2x
-            "
+                srcset="
+                  ./images/team-img/img-tom.jpg    1x,
+                  ./images/team-img/img-tom@2x.jpg 2x
+                "
                 src="./images/team-img/img-tom.jpg"
                 alt="Picture of Tom Ford"
                 width="264"
@@ -345,10 +345,10 @@
 
             <li class="co-workers">
               <img
-              srcset="
-              ./images/team-img/img-camila.jpg 1x,
-              ./images/team-img/img-camila@2x.jpg 2x
-            "
+                srcset="
+                  ./images/team-img/img-camila.jpg    1x,
+                  ./images/team-img/img-camila@2x.jpg 2x
+                "
                 src="./images/team-img/img-camila.jpg"
                 alt="Picture of Camila Garcia"
                 width="264"
@@ -412,10 +412,10 @@
 
             <li class="co-workers">
               <img
-              srcset="
-              ./images/team-img/img-daniel.jpg 1x,
-              ./images/team-img/img-daniel@2x.jpg 2x
-            "
+                srcset="
+                  ./images/team-img/img-daniel.jpg    1x,
+                  ./images/team-img/img-daniel@2x.jpg 2x
+                "
                 src="./images/team-img/img-daniel.jpg"
                 alt="Picture of Daniel Wilson"
                 width="264"
@@ -487,21 +487,40 @@
           <ul class="list-portfolio">
             <li class="list-item-portfolio">
               <div class="overlay-div">
-                <img
-                srcset="
-                ./images/team-img/img-banking.jpg 1x,
-                ./images/team-img/img-banking@2x.jpg 2x
-              "
-                  src="./images/portfolio-img/img-banking.jpg"
-                  alt="interface of banking app"
-                  width="360"
-                  height="300"
-                />
-                <p class="overlay">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio-img/img-banking.jpg 1x,
+                      ./images/portfolio-img/img-banking-des@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio-img/img-banking-tab.jpg 1x,
+                      ./images/portfolio-img/img-banking-tab@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 320px)"
+                    srcset="
+                      ./images/portfolio-img/img-banking-mob.jpg 1x,
+                      ./images/portfolio-img/img-banking-mob@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/portfolio-img/img-banking.jpg"
+                    alt="interface of banking app"
+                    width="360"
+                    height="300"
+                  />
+                  <p class="overlay">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </picture>
               </div>
               <div class="item-portfolio">
                 <h3 class="title-portfolio">Banking App</h3>
@@ -510,11 +529,29 @@
             </li>
             <li class="list-item-portfolio">
               <div class="overlay-div">
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio-img/img-cashless.jpg 1x,
+                      ./images/portfolio-img/img-cashless-des@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio-img/img-cashless-tab.jpg 1x,
+                      ./images/portfolio-img/img-cashless-tab@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 320px)"
+                    srcset="
+                      ./images/portfolio-img/img-cashless-mob.jpg 1x,
+                      ./images/portfolio-img/img-cashless-mob@2x.jpg 2x
+                    "
+                  />
                 <img
-                srcset="
-                ./images/team-img/img-cashless.jpg 1x,
-                ./images/team-img/img-cashless@2x.jpg 2x
-              "
                   src="./images/portfolio-img/img-cashless.jpg"
                   alt="process of cashless payment"
                   width="360"
@@ -525,6 +562,7 @@
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
+              </picture>
               </div>
               <div class="item-portfolio">
                 <h3 class="title-portfolio">Cashless Payment</h3>
@@ -533,11 +571,29 @@
             </li>
             <li class="list-item-portfolio">
               <div class="overlay-div">
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio-img/img-meditation.jpg 1x,
+                      ./images/portfolio-img/img-meditation-des@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio-img/img-meditation-tab.jpg 1x,
+                      ./images/portfolio-img/img-meditation-tab@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 320px)"
+                    srcset="
+                      ./images/portfolio-img/img-meditation-mob.jpg 1x,
+                      ./images/portfolio-img/img-meditation-mob@2x.jpg 2x
+                    "
+                  />
                 <img
-                srcset="
-                ./images/team-img/img-meditation.jpg 1x,
-                ./images/team-img/img-meditation@2x.jpg 2x
-              "
                   src="./images/portfolio-img/img-meditation.jpg"
                   alt="Showing app"
                   width="360"
@@ -548,6 +604,7 @@
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
+                </picture>
               </div>
               <div class="item-portfolio">
                 <h3 class="title-portfolio">Meditation App</h3>
@@ -557,11 +614,29 @@
 
             <li class="list-item-portfolio">
               <div class="overlay-div">
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio-img/img-taxi.jpg 1x,
+                      ./images/portfolio-img/img-taxi-des@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio-img/img-taxi-tab.jpg 1x,
+                      ./images/portfolio-img/img-taxi-tab@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 320px)"
+                    srcset="
+                      ./images/portfolio-img/img-taxi-mob.jpg 1x,
+                      ./images/portfolio-img/img-taxi-mob@2x.jpg 2x
+                    "
+                  />
                 <img
-                srcset="
-                ./images/team-img/img-taxi.jpg 1x,
-                ./images/team-img/img-taxi@2x.jpg 2x
-              "
                   src="./images/portfolio-img/img-taxi.jpg"
                   alt="Car with driver"
                   width="360"
@@ -572,6 +647,7 @@
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
+                </picture>
               </div>
               <div class="item-portfolio">
                 <h3 class="title-portfolio">Taxi Service</h3>
@@ -581,11 +657,29 @@
 
             <li class="list-item-portfolio">
               <div class="overlay-div">
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio-img/img-screen.jpg 1x,
+                      ./images/portfolio-img/img-screen-des@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio-img/img-screen-tab.jpg 1x,
+                      ./images/portfolio-img/img-screen-tab@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 320px)"
+                    srcset="
+                      ./images/portfolio-img/img-screen-mob.jpg 1x,
+                      ./images/portfolio-img/img-screen-mob@2x.jpg 2x
+                    "
+                  />
                 <img
-                srcset="
-                ./images/team-img/img-screen.jpg 1x,
-                ./images/team-img/img-screen@2x.jpg 2x
-              "
                   src="./images/portfolio-img/img-screen.jpg"
                   alt="Home Screen with wallpaper"
                   width="360"
@@ -596,6 +690,7 @@
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
+                </picture>
               </div>
               <div class="item-portfolio">
                 <h3 class="title-portfolio">Screen Illustrations</h3>
@@ -605,11 +700,29 @@
 
             <li class="list-item-portfolio">
               <div class="overlay-div">
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio-img/img-online.jpg 1x,
+                      ./images/portfolio-img/img-online-des@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio-img/img-online-tab.jpg 1x,
+                      ./images/portfolio-img/img-online-tab@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 320px)"
+                    srcset="
+                      ./images/portfolio-img/img-online-mob.jpg 1x,
+                      ./images/portfolio-img/img-online-mob@2x.jpg 2x
+                    "
+                  />
                 <img
-                srcset="
-                ./images/team-img/img-online.jpg 1x,
-                ./images/team-img/img-online@2x.jpg 2x
-              "
                   src="./images/portfolio-img/img-online.jpg"
                   alt="Woman with a headphones"
                   width="360"
@@ -620,6 +733,7 @@
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
+                </picture>
               </div>
               <div class="item-portfolio">
                 <h3 class="title-portfolio">Online Courses</h3>
