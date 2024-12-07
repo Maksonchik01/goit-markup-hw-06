@@ -555,6 +555,7 @@ button {
 @media only screen and (min-width: 1158px) {
   .list-item-portfolio {
     width: calc((100% - 48px) / 3);
+    box-shadow: none;
   }
   .list-item-portfolio:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
